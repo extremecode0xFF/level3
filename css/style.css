@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.table{
+
+}
+
+#usersTable{
+    display: flex;
+    justify-content: center;
+}
+
+#usersTable table{
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 2px solid black;
+    border-spacing: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#usersTable thead tr{
+    background-color: rgb(255, 119, 0);
+}
+
+#usersTable tbody tr{
+    background-color: rgb(250, 207, 7);
+    text-align: center;
+}
+
+#usersTable th{
+    border: 2px solid grey;
+    width: 33.33%;
+}
+
+#usersTable td{
+    border: 2px solid grey;
+    width: 33.33%;
+}
